@@ -13,10 +13,77 @@ body {
   article {
     flex: 2;             
     overflow-y: auto;   
+    padding: 20px;      
+    background-color: #ffffff;
   }
   
   aside {
     flex: 1;            
     overflow-y: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 2px solid #ddd;
   }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  header li a:hover {
+    color: #f80002; 
+  }
+  
+  header li.logo {
+    font-size: 36px;
+    margin-right: 20px;
+    color: #f80002;
+  }
+  
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  article h1, article h2, article h3 {
+    color: #222;
+  }
+  
+  article p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
   
