@@ -201,3 +201,44 @@
     color: #c271ff;
     text-align: center;
   }
+
+    /* Pros section edit */
+  
+    .Pros-section {
+        width: 1009px;
+        height: 193px;
+        margin-left: 280px;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      section div h3 {
+        width: 150px;
+        height: 27px;
+        margin-top: 5px;
+        font-family: Myfont;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #ffffff;
+      }
+      
+      section div p {
+        width: 150px;
+        height: 48px;
+        margin-top: 5px;
+        font-family: Myfont;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 24px;
+        text-align: center;
+      }
+      
+      .pro-3 img {
+        border-radius: 50%;
+      }
+      
