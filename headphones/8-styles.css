@@ -1,0 +1,38 @@
+@media screen and (max-width: 500px) {
+    .content{
+    max-width: 400px;
+}
+.content2{
+    max-width: 400px;
+}
+.content3{
+    max-width: 300px;
+}
+  
+  .links ul {
+    flex-direction: column;
+    padding: 0;
+    display: none; 
+    width: 100%;
+  }
+
+  .links ul li {
+    padding: 15px 0;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+
+  .links.active ul {
+    display: flex;
+  }
+
+  .btn a {
+    padding: 12px 24px;
+    font-size: 13px;
+  }
+}

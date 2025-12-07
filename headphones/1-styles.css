@@ -1,0 +1,46 @@
+.What-we-do{
+    padding: 80px 40px;
+}
+.What-we-do .content{
+    padding-top: 80px;
+}
+.items{
+  padding: 30px 10px;
+}
+.items p{
+  font-size: 14px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 850px){
+    .What-we-do .content .flex {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.items {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+}
+@media screen and (max-width: 780px){
+    .What-we-do .content .flex {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.items {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+}
+@media screen and (max-width: 580px){
+    .What-we-do .content .flex {
+  display: block;
+}
+.items {
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+}
